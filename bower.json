@@ -1,0 +1,30 @@
+{
+  "name": "ng-merge",
+  "authors": [
+    "ex-machine"
+  ],
+  "version": "1.0.0",
+  "description": "angular.merge, backported from 1.5",
+  "keywords": [
+    "angular",
+    "merge"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ex-machine/ng-merge",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "main": "dist/ng-merge.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "^1.0"
+  },
+  "devDependencies": {}
+}
