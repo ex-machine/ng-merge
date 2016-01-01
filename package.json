@@ -1,7 +1,7 @@
 {
   "name": "ng-merge",
   "author": "ex-machine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "angular.merge, backported from 1.5",
   "keywords": [
     "angular",
