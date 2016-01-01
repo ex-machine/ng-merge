@@ -7,6 +7,8 @@ if (version.major === 1 && version.minor < 5)
 	angular.merge = merge;
 
 function merge(dst) {
+	var toString = Object.prototype.toString;
+	
 	function isRegExp(value) {
 		return toString.call(value) === '[object RegExp]';
 	}
